@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Unity In Diversity</title>
+
+    <!-- IconScout Icons -->
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.8/css/line.css"
+    />
+
+    <!-- ============Google Font (Poppins)============= -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+
+    <!-- ============ NavBar ============== -->
+    <nav>
+      <div class="container nav_container">
+        <h4>
+          <a href="index.html">Bharatiya Bhasha <br> Utsav</a>
+        </h4>
+        <ul class="nav_menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#phrases">Phrases</a></li>
+          <li><a href="#about">About</a></li>
+        </ul>
+        <button id="open_menu_btn"><i class="uil uil-bars"></i></button>
+        <button id="close_menu_btn"><i class="uil uil-multiply"></i></button>
+      </div>
+    </nav>
+
+    <!-- ============== Header ================= -->
+    <header>
+      <img src="./Assets/Group 1.png" />
+    </header>
+
+    <section class="phrases" id="phrases">
+      <h2>Harmony Of Languages</h2>
+
+      <div class="container phrases_container">
+        <div class="language_switching-bar">
+            <ul>
+              <li><button onclick="changeLanguage('kashmiri')">Kashmiri</button></li>
+              <li><button onclick="changeLanguage('english')">English</button></li>
+              <li><button onclick="changeLanguage('urdu')">Urdu</button></li>
+              <li><button onclick="changeLanguage('punjabi')">Punjabi</button></li>
+              <li><button onclick="changeLanguage('tamil')">Tamil</button></li>
+              <li><button onclick="changeLanguage('hindi')">Hindi</button></li>
+            </ul>
+          </div>
+  
+          <div class="sentences_box">
+  
+            <div class="language_sentences">
+              <p id="sentence1">
+                
+              </p>
+            </div>
+            <div class="language_sentences">
+              <p id="sentence2">
+                
+              </p>
+            </div>
+            <div class="language_sentences">
+              <p id="sentence3">
+                
+              </p>
+            </div>
+            <div class="language_sentences">
+              <p id="sentence4">
+                
+              </p>
+            </div>
+            <div class="language_sentences">
+              <p id="sentence5">
+                
+              </p>
+            </div>
+            <div class="language_sentences">
+              <p id="sentence6">
+                
+              </p>
+            </div>
+            
+          </div>
+      </div>
+    </section>
+
+    <footer id="about">
+        <div class="container footer_container">
+            <div class="footer1">
+                <h4>Introduction</h4>
+                <p>
+                    I'm Mursaleen Nisar, from Govt. HSS B.K Pora, a student of class 12th (Arts)...
+                </p>
+                
+                <ul class="footer_socials">
+                    <li>
+                      <a
+                        href="https://m.facebook.com/profile.php/?id=100084542066085"
+                        target="_blank"
+                        ><i class="uil uil-facebook-f"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a href="https://wa.me/+919697849332" target="_blank"
+                        ><i class="uil uil-whatsapp"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a href="https://instagram.com/mursaleen_nisar" target="_blank"
+                        ><i class="uil uil-instagram"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a href="https://twitter.com/SuhaibNisar1909" target="_blank"
+                        ><i class="uil uil-twitter-alt"></i
+                      ></a>
+                    </li>
+                  </ul>
+
+            </div>
+
+            <div class="footer2">
+                <h4>Campaign</h4>
+                <p>
+                    BHARTIYA BHASHA UTSAV campaign with the theme BHASHAYEIN ANEK BHAV EK (Many languages One Emotion)...
+                </p>
+            </div>
+
+            <div class="footer3">
+                <h4>Theme</h4>
+                <p>
+                    This Week's theme is Show your Talent and I participated in the activity and created this web page that I dedicate to this activity.
+                </p>
+            </div>
+
+            <div class="footer4">
+                <h2>Celebrated by Govt. HSS BK pora</h2>
+            </div>
+        </div>
+
+        <div class="footer_copyright">
+            <small>Copyright &copy; Mursaleen Nisar</small>
+        </div>
+
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
